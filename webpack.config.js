@@ -13,7 +13,7 @@ const jsLoaders = () => {
   const loaders = [
     {
       loader: 'babel-loader',
-      options: {
+      options: { 
         presets: ['@babel/preset-env']
       }
     }
